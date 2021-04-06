@@ -1,0 +1,37 @@
+p {
+  color: green;
+}
+
+body {
+  font-size: 40px;
+}
+
+section {
+  background-color: aqua;
+}
+section h1 {
+  font-size: 60px;
+}
+section h1:hover {
+  color: orange;
+}
+section p {
+  font-style: italic;
+}
+section p span {
+  color: red;
+}
+
+header h1 {
+  font-size: 50px;
+  padding: 30px;
+  color: blue;
+}
+
+footer p {
+  font-size: 50px;
+  padding: 30px;
+  color: blue;
+}
+
+/*# sourceMappingURL=main.css.map */

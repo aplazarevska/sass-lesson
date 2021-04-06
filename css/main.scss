@@ -1,0 +1,40 @@
+
+@import "partials/variables";
+@import "partials/home";
+
+body {
+    font-size: 40px;
+}
+
+section {
+    background-color: $section-bkgnd-color;
+
+    h1 {
+        font-size: 60px;
+        &:hover {
+            color: $heading-hover;
+        }
+    }
+    p {
+        font-style: italic;
+        span {
+            color: $span-highlight;
+        }
+    }
+}
+
+@mixin main-background ($color: beige){
+    font-size: 50px;
+    padding: 30px;
+    color: blue;
+}
+
+header {
+    h1 {@include main-background ($color: orange);
+    }
+}
+
+footer {
+    p {@include main-background ($color: green);
+    }
+}
